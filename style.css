@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+    color: #111;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 40px;
+    background: white;
+}
+
+.header nav a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #111;
+    font-size: 16px;
+}
+
+/* HERO */
+.hero {
+    padding: 80px 40px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.btn {
+    padding: 12px 35px;
+    background: #1264e3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* SERVICE */
+.service {
+    display: flex;
+    padding: 80px 40px;
+    align-items: center;
+}
+
+.service-text {
+    flex: 1;
+    margin-right: 50px;
+}
+
+.service-img {
+    width: 300px;
+    height: 180px;
+    background: #e0e0e0;
+    border-radius: 10px;
+}
+
+/* CONTACT FORM */
+.contact {
+    padding: 80px 40px;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.contact textarea {
+    height: 120px;
+    resize: none;
+}
+
+.form-bottom {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.form-bottom span {
+    color: #555;
+}
